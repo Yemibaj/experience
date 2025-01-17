@@ -1,0 +1,103 @@
+/* body or * */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #fff;
+}
+
+header .logo {
+  font-size: 24px;
+}
+
+header nav a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: #333;
+  font-weight: 600;
+}
+
+header nav a:hover {
+  color: #0077b6;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fff url('ab.jpg') no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.961);
+}
+
+.hero h1 {
+  font-size: 36px;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  position: relative;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.btn-primary {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #0077b6;
+}
+
+.btn-primary:hover {
+  background-color: #005f8a;
+}
+
+.btn-secondary {
+  background: #fff;
+  color: #0077b6;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid #0077b6;
+  border-radius: 5px;
+}
+
+.btn-secondary:hover {
+  background: #0077b6;
+  color: #fff;
+}
+
+.delivery-info {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+  position: relative;
+}
